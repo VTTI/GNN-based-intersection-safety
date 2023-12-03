@@ -1,0 +1,6 @@
+jupyter
+pandas
+matplotlib
+seaborn
+h5py
+torch-geometric

@@ -3,6 +3,8 @@ This repository contains code for graph-level predictions on intersection data, 
 
 
 ### Dependencies
+
+Follow the below steps sequentially to download the code and install the dependencies-
 `git clone https://github.com/VTTI/GNN-based-intersection-safety.git`
 
 `cd GNN-based-intersection-safety`

@@ -11,6 +11,6 @@ Ensure your dataset follows the structure outlined below:
    - A labels file named `labels.npy`.
 
 ### Code Files
-dataset_featurizer.py: This file is responsible for extracting node features, edge features, and the adjacency matrix from the JSON graphs corresponding to each frame of the video.
+`dataset_featurizer.py`: This file is responsible for extracting node features, edge features, and the adjacency matrix from the JSON graphs corresponding to each frame of the video.
 
-model.py: This file contains details about the model architecture. Modify it according to your specific requirements. Note that not all models support both node and edge features. Refer to PyTorch Geometric GNN Cheat Sheet to choose an appropriate model based on your data characteristics.
+`model.py`: This file contains details about the model architecture. Modify it according to your specific requirements. Note that not all models support both node and edge features. Refer to [PyTorch Geometric GNN Cheat Sheet](https://pytorch-geometric.readthedocs.io/en/latest/cheatsheet/gnn_cheatsheet.html) to choose an appropriate model based on your data characteristics.

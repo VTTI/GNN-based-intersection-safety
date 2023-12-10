@@ -20,7 +20,7 @@ Ensure your dataset follows the structure outlined below:
 
 1. Individual folders named `train` and `test`, each containing a subfolder called `raw`.
 2. Inside the `raw` folders, there should be:
-   - Folder named `jsongraphs` containing JSON files representing graphs.
+   - Folder named `jsongraphs` containing JSON files representing graphs. (The bash script `dot_to_json.sh` can be used to convert DOT files to JSON)
    - Text file named `jsonfiles.txt` listing the names of each JSON file in the jsongraphs folder.
    - Labels file named `labels.npy`.
 

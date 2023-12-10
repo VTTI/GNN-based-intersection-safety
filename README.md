@@ -5,7 +5,7 @@ This repository contains code for graph-level predictions on intersection data, 
 ### Dependencies
 `git clone https://github.com/VTTI/GNN-based-intersection-safety.git`
 
-`cd driver-secondary-action-recognition`
+`cd GNN-based-intersection-safety`
 
 `docker build . -t gnn-safety`
 
@@ -26,3 +26,5 @@ Ensure your dataset follows the structure outlined below:
 `dataset_featurizer.py`: This file is responsible for extracting node features, edge features, and the adjacency matrix from the JSON graphs corresponding to each frame of the video.
 
 `model.py`: This file contains details about the model architecture. Modify it according to your specific requirements. Note that not all models support both node and edge features. Refer to [PyTorch Geometric GNN Cheat Sheet](https://pytorch-geometric.readthedocs.io/en/latest/cheatsheet/gnn_cheatsheet.html) to choose an appropriate model based on your data characteristics.
+
+`train.py`: Run this file once the dataset has been formatted and dependencies have been installed
